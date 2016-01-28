@@ -106,6 +106,7 @@ sleep 5
 # docker
 {0}
 
+service docker restart
 sudo usermod -aG docker ubuntu
 
 # updates
