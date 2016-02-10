@@ -47,7 +47,7 @@ sleep 5
 wget -qO- 'https://pgp.mit.edu/pks/lookup?op=get&search=0xee6d536cf7dc86e2d7d56f59a178ac6c6238f52e' | sudo apt-key add --import
 apt-get update
 apt-get install -y apt-transport-https
-echo "deb https://packages.docker.com/1.9/apt/repo ubuntu-trusty main" | tee /etc/apt/sources.list.d/docker.list
+echo "deb https://packages.docker.com/1.10/apt/repo ubuntu-trusty main" | tee /etc/apt/sources.list.d/docker.list
 apt-get update
 apt-get install -y docker-engine
 
@@ -87,7 +87,7 @@ sleep 5
 wget -qO- 'https://pgp.mit.edu/pks/lookup?op=get&search=0xee6d536cf7dc86e2d7d56f59a178ac6c6238f52e' | sudo apt-key add --import
 apt-get update
 apt-get install -y apt-transport-https
-echo "deb https://packages.docker.com/1.9/apt/repo ubuntu-trusty main" | tee /etc/apt/sources.list.d/docker.list
+echo "deb https://packages.docker.com/1.10/apt/repo ubuntu-trusty main" | tee /etc/apt/sources.list.d/docker.list
 apt-get update
 apt-get install -y docker-engine
 
